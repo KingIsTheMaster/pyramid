@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
     <style>
       #pyramid {
@@ -20,6 +19,8 @@
         font-family: Arial;
         text-align: center;
         background-color: #999;
+        font-size: 20px;
+        font-weight: bold;
         }
          
       b {
@@ -42,19 +43,18 @@
     <br><br><br><br>
     <b>Pyramid Slide</b>
     <br><br><br><br>
-     <span>Brick symbol: <select id="drawBrickSymbol">
+     | <span>Brick symbol: <select id="drawBrickSymbol">
     <option value="#">&#35;</option>
     <option value="@">&#64;</option>
     <option value="X">X</option>
     <option value="$">&#36;</option>
     </select></span> 
-      
-    <span>How high?<input type="range" id="rowSlider" min="1" max="29">
+      |
+    <span>How high? <input type="range" id="rowSlider" min="1" max="29">
     <span id="heightInput"></span>
-    </span>
+    </span>|
     <br><br><br>  
     <div id="pyramid"></div>
             
     <script src="PyramidSlider.js"></script>
     </body>
-    </html>
